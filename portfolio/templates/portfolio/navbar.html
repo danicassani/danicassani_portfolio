@@ -1,0 +1,18 @@
+<header class="navbar navbar-expand navbar-light bg-light ">
+    <div class="collapse navbar-collapse justify-div">
+        <ul class="navbar-nav">
+            <li>
+                <a class="nav-link my-nav-link {% if request.path == '/' %}active{% endif %}" aria-current="page" href="#">Home</a>
+            </li>
+            <li>
+                <a class="nav-link my-nav-link {% if request.path == '/projects/' %}active{% endif %}" href="#">Projects</a>
+            </li>
+            <li>
+                <a class="nav-link my-nav-link" target="_blank" href="#">Resume</a>
+            </li>
+            <li>
+                <a class="nav-link my-nav-link {% if request.path == '/contact/' %}active{% endif %}" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</header>

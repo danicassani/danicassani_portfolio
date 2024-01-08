@@ -26,12 +26,13 @@ SECRET_KEY = 'django-insecure-y&3966g_y4s1cxn0p5b7-eg3h0ye=f9)u!y+&jh&0^!n672lw9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['danicassani.com']
+ALLOWED_HOSTS = ['danicassani.com', 'localhost']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'portfolio.apps.PortfolioConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
